@@ -34,23 +34,22 @@ app.get("/define/:word", async (req, res) => {
 });
 ```
 
-📁 Tech Stack
-HTML
+## 📁 Tech Stack
 
-CSS
+- HTML
+- CSS
+- JavaScript (Fetch API)
 
-JavaScript (Fetch API)
+---
 
-📦 Learning Outcome
+## 📦 Learning Outcome
+
 Through this small project, I learned:
 
-How to fetch real-time data from APIs
-
-Basics of working with API keys
-
-Understanding the importance of .env files and backend handling
-
-Practical integration of frontend and backend for real-world usage
+- How to fetch real-time data from APIs
+- Basics of working with API keys
+- Understanding the importance of `.env` files and backend handling
+- Practical integration of frontend and backend for real-world usage
 
 🌐 Live Demo
 
