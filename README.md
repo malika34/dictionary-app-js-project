@@ -51,8 +51,6 @@ Through this small project, I learned:
 - Understanding the importance of `.env` files and backend handling
 - Practical integration of frontend and backend for real-world usage
 
-🌐 Live Demo
-
 ## 🌐 Live Demo
 
 Experience the project live here:  
