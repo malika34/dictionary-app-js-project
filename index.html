@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WordWise Dictionary</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="shortcut icon" href="dictionary.png" type="image/x-icon">
+
+    <style>
+        body {
+            background: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .navbar {
+            background: #ffffff !important;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand p {
+            margin: 0;
+            font-weight: 700;
+            font-size: 1.3rem;
+            color: #007bff;
+        }
+
+        h2 {
+            font-weight: 600;
+            color: #343a40;
+        }
+
+        #dictForm {
+            background: #ffffff;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .btn-primary {
+            width: 100%;
+            padding: 0.6rem;
+            font-weight: 600;
+            border-radius: 8px;
+        }
+
+        #result {
+            background: #fff;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        @media (min-width: 768px) {
+            #dictForm {
+                width: 60%;
+                margin: auto;
+            }
+
+            #result {
+                width: 60%;
+                margin: 2rem auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <p>📚 Malik WordWise</p>
+        </a>
+    </nav>
+
+    <div class="container my-4">
+        <h2 class="text-center mb-4">Smart Dictionary – Find Meaning Instantly</h2>
+
+        <form id="dictForm">
+            <div class="form-group">
+                <label for="wordInput"><strong>Enter a Word:</strong></label>
+                <input type="text" class="form-control" id="wordInput" placeholder="Type a word..." required>
+            </div>
+            <button type="submit" class="btn btn-primary">🔍 Search Meaning</button>
+        </form>
+
+        <div id="result" class="mt-4"></div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
